@@ -123,19 +123,6 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 	height:60px;
 }
 
-/*input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-	color: rgba(15,80,200,1);
-    border-bottom: 1px solid rgba(25,235,250,1);
-    box-shadow: 0 1px 0 0 rgba(25,235,250,1);
-<<<<<<< HEAD
-}*/
-=======
-}
-input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-	color: rgba(15,80,200,1);
-    border-bottom: 1px solid rgba rgba(25,235,250,1);
-    box-shadow: 0 1px 0 0 #26a69a;
-}
 
 .videos {
   text-align: center;
@@ -160,4 +147,3 @@ video {
   width: 100%;
   max-width: 320px;
 }
->>>>>>> 380b701cf35b7493b192b255ff42c299d53d679a
