@@ -2,13 +2,21 @@
   <title>poRTCal</title>
 </head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
 
-  {{> hello}}
+<body>
+	<img src="img/backdrop.jpg" class="bg">
+  {{> layout}}
 </body>
 
+<template name="layout">
+	<div id="page">
+		{{> hello}}
+	</div>
+</template>
+
 <template name="hello">
-  <button>Click Me</button>
+  <button class="waves-effect waves-circle waves-light btn-floating secondary-content left">Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
 </template>
+
+

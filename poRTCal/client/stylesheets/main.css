@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+
+@media screen and (max-aspect-ratio: 16/9){ 
+	.bg{
+		height: 100vh;
+/*		overflow:hidden;*/
+	}
+}
+
+@media screen and (min-aspect-ratio: 16/9) { 
+	.bg{
+		width: 100vw;
+
+	}
+}
+
+body{
+	position:relative;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+.bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: -100;
+}
