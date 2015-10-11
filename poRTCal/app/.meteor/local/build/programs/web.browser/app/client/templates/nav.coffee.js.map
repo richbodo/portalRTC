@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["nav.coffee"],"names":[],"mappings":";AAAA,QAAQ,CAAC,GAAG,CAAC,OAAb,CACE;AAAA,sBAAoB;WAClB,MAAM,CAAC,OAAP,EAAgB,CAAC,OADC;EAAA,CAApB;CADF","file":"/client/templates/nav.coffee.js","sourcesContent":["Template.Nav.helpers\n  currentRouteParams: ->\n    Router.current().params\n\n"]}
