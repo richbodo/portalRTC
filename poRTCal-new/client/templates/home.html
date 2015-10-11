@@ -1,0 +1,26 @@
+<template name="home">
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Specifically open in another device/window <a href="{{roomName}}" target="_blank">{{roomName}}</a></p>
+          <p>This demo sets up a video and audio call with one other person on who is at the same URL</p>
+          <button class="btn btn-info" name="call" {{canCall}}>{{callText}}</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="stream remote-stream portal">
+          <video src="{{remoteStream}}" autoplay></video>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+      <div class="row">
+          <div class="stream local-stream right">
+            <video id="local-stream" src="{{localStream}}" autoplay muted></video>
+          </div>
+    </div>
+  </footer>
+</template>
+
