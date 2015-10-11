@@ -1,0 +1,33 @@
+<template name="layout">
+	<img src="img/backdrop.jpg" class="bg">
+	<div id="page">
+		{{> menu}}
+	</div>
+</template>
+
+
+<template name="menu">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center">
+      	<span class="logo-text">P</span>
+      	<img src="img/portal_O.png" alt="letter o" id="logo-o"/>
+      	<span class="logo-text">R T C A L</span>
+      </a>
+      <a href="#" data-activates="menu" class="menu-trigger portcl-blue waves-effect waves-light btn-large btn-floating "><i class="material-icons">menu</i></a>
+<!--       <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul> -->
+      <ul class="side-nav" id="menu">
+        <li>
+        	<form>
+        		<input type="text" name="newContact" id="newContact" placeholder="e-mail of new contact" />
+        	</form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</template>

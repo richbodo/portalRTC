@@ -3,12 +3,12 @@
 }
 
 .portcl-blue{
-/*	background-color: rgba(20,172,210,1);*/
+	background-color: rgba(20,172,210,1);
 }
-/*.portcl-blue:hover{
+.portcl-blue:hover{
 	background-color: rgba(25,235,250,1);
 }
-*/
+
 .portcl-dark-blue{
 	background-color: rgba(15,80,200,1);
 }
@@ -77,4 +77,15 @@ nav{
 }
 #logo-o{
 	height:60px;
+}
+
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	color: rgba(15,80,200,1);
+    border-bottom: 1px solid rgba(25,235,250,1);
+    box-shadow: 0 1px 0 0 rgba(25,235,250,1);
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	color: rgba(15,80,200,1);
+    border-bottom: 1px solid rgba rgba(25,235,250,1);
+    box-shadow: 0 1px 0 0 #26a69a;
 }
