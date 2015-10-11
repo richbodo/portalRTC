@@ -1,2 +1,0 @@
-)]}'
-{"version":3,"sources":["stream.coffee"],"names":[],"mappings":";AAAA,KAAK,CAAC,MAAN,GAAmB,UAAM,CAAC,MAAP,CAAc,YAAd,CAAnB","file":"/lib/stream.coffee.js","sourcesContent":["share.stream = new Meteor.Stream 'signalling'\n\n"]}

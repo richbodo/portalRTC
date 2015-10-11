@@ -1,2 +1,0 @@
-)]}'
-{"version":3,"sources":["collections.coffee"],"names":[],"mappings":";AACA,IAAC,SAAD,GAAgB,UAAM,CAAC,UAAP,CAAkB,IAAlB,CAAhB","file":"/client/collections.coffee.js","sourcesContent":["# Local only messages\n@Messages = new Meteor.Collection(null)\n\n"]}

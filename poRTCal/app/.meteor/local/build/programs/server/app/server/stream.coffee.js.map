@@ -1,1 +1,0 @@
-{"version":3,"sources":["stream.coffee"],"names":[],"mappings":";AAAA;;AAAA,WAAW;SAAG,KAAH;AAAA,CAAX;;AAAA,KACK,CAAC,MAAM,CAAC,WAAW,CAAC,IAAzB,CAA8B,QAA9B,CADA;;AAAA,KAEK,CAAC,MAAM,CAAC,WAAW,CAAC,KAAzB,CAA+B,QAA/B,CAFA","file":"/server/stream.coffee.js","sourcesContent":["allowAll = -> true\nshare.stream.permissions.read allowAll\nshare.stream.permissions.write allowAll\n\n"]}
