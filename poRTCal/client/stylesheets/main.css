@@ -65,7 +65,51 @@ body{
 }
 
 nav{
-	background-color: rgba(0,0,0,.1)
+	background-color: rgba(0,0,0,.1);
+	color: rgba(15,80,200,1);
+}
+
+
+/* label color */
+nav .input-field label {
+ color: rgba(15,80,200,1);
+}
+/* label focus color */
+nav .input-field input[type=text]:focus + label {
+ color: rgba(15,80,200,1);
+}
+/* label underline focus color */
+nav .input-field input[type=text]:focus {
+ border-bottom: 1px solid rgba(15,80,200,1);
+ box-shadow: 0 1px 0 0 rgba(15,80,200,1);
+}
+/* valid color */
+nav .input-field input[type=text].valid {
+ border-bottom: 1px solid rgba(15,80,200,1);
+ box-shadow: 0 1px 0 0 rgba(15,80,200,1);
+}
+/* invalid color */
+nav .input-field input[type=text].invalid {
+ border-bottom: 1px solid rgba(250,110,0,1);
+ box-shadow: 0 1px 0 0 rgba(250,110,0,1);
+}
+/* icon prefix focus color */
+nav .input-field .prefix.active {
+ color:  rgba(15,80,200,1);
+}
+
+nav label, nav label:active, nav label:focus, nav label:hover, nav label:visited, input[type=text]:focus:not([readonly]) + label, input[type=password]:focus:not([readonly]) + label, input[type=email]:focus:not([readonly]) + label, input[type=url]:focus:not([readonly]) + label, input[type=time]:focus:not([readonly]) + label, input[type=date]:focus:not([readonly]) + label, input[type=datetime-local]:focus:not([readonly]) + label, input[type=tel]:focus:not([readonly]) + label, input[type=number]:focus:not([readonly]) + label, input[type=search]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: rgba(15,80,200,1);
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	color: rgba(15,80,200,1);
+    border-bottom: 1px solid rgba(15,80,200,1);
+    box-shadow: 0 1px 0 0 rgba(15,80,200,1);
+}
+
+
+.btn:hover, .btn-large:hover {
+    background-color: rgba(15,80,200,1);
 }
 
 .logo-text{
@@ -79,13 +123,8 @@ nav{
 	height:60px;
 }
 
-input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+/*input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
 	color: rgba(15,80,200,1);
     border-bottom: 1px solid rgba(25,235,250,1);
     box-shadow: 0 1px 0 0 rgba(25,235,250,1);
-}
-input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-	color: rgba(15,80,200,1);
-    border-bottom: 1px solid rgba rgba(25,235,250,1);
-    box-shadow: 0 1px 0 0 #26a69a;
-}
+}*/
