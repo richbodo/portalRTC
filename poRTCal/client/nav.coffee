@@ -1,4 +1,4 @@
-Template.Nav.helpers
+ Template.Nav.helpers
   currentRouteParams: ->
     Router.current().params
 
