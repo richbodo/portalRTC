@@ -1,9 +1,8 @@
 <template name="layout">
 	<img src="img/backdrop.jpg" class="bg">
     {{> menu}}
-  	
+    // {{> peerjs_demo}}  	
 </template>
-
 
 <template name="menu">
   <nav>
